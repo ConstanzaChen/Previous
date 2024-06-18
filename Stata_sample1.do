@@ -1,6 +1,6 @@
 * set working directory
 version 18
-cd "C:\Users\11208\Desktop\Intro to Biostat\files"
+cd "C:\Users\Intro to Biostat\files"
 
 *import dataset
 import excel "Base_continuous_lite.xlsx", firstrow clear
