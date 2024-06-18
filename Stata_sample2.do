@@ -1,6 +1,6 @@
 version 18
 
-cd "C:\Users\11208\Desktop\Intro to Biostat\files"
+cd "C:\Users\Intro to Biostat\files"
 
 *Final
 
