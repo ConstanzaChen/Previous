@@ -2,7 +2,7 @@
 library(netmeta)
 library(readxl)
 library(dplyr)
-data<-read_excel("C:/Users/11208/Desktop/Chronic_Migraine_Dataset.xlsx")
+data<-read_excel("C:/Users/Chronic_Migraine_Dataset.xlsx")
 
 data2 <- data[data$trt != "Placebo", ]
 data2$trt2 <- "Placebo"
@@ -83,5 +83,5 @@ netleague <- netleague(nm,
                        digits=2)  
 netleague
 
-write.csv(netleague$common, "C:/Users/11208/Desktop/netleague.csv")
+write.csv(netleague$common, "C:/Users/netleague.csv")
 
